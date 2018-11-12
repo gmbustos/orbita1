@@ -1,0 +1,31 @@
+body {
+  /* Contraresta sobreposición navbar */
+  padding-top: 55px;
+  /* Margin bottom by footer height */
+  margin-bottom: 220px;
+  background-color: #ffffff; /* otros colores #F8FDF8, e8f7e8, */
+  font-family: "Inconsolata", monospace;
+  /* color:#19d3a8; color verde para probar*/
+}
+
+
+/* FONTS */
+/* @font-face {
+  font-family: 'advanced_dot_digital-7';
+  src="fonts/advanced_dot_digital-7.ttf";
+} */
+
+@font-face {
+    font-family: 'advanced_dot_digital-7';
+    src: url('fonts/advanced_dot_digital-7.ttf');
+    }
+
+.navbar-brand {
+  font-family: "advanced_dot_digital-7", sans-serif;
+
+  }
+
+  /* Orbita Css */
+  .bg-dark {
+      background-color: #ae1d24!important;
+  }
